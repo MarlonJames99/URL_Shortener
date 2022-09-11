@@ -7,7 +7,7 @@ This web application is a URL shortener used to transform a normal URL in a smal
 
 The application has an easy-to-understand interface, with a form where the user must enter the URL he wants to shorten, a button to shorten it and another button to copy the short URL.
 
-### App link: 
+### App link: https://marlonjames99.github.io/URL_Shortener/
 
 ## Tecnologies:
 <div style="display: inline_block">
