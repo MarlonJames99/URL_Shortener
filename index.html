@@ -7,7 +7,7 @@
     <title>URL Shortener</title>
     <meta name="description" content="Application used to make URLs shorter.">
     <meta name="author" content="Marlon James">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="./img/favicon.png">
 </head>
 <body>
@@ -15,9 +15,11 @@
         <h2 class="title">URL Shortener</h2>
         <div class="box-input">
             <input class="input-url" id="input-url" type="text" placeholder="Place your URL here">
-            <button class="btn">Shorten</button>
-            <button class="btn">Copy</button>
+            <button class="btn" onclick="shortenUrl()">Shorten</button>
+            <button class="btn" onclick="copyUrl()">Copy</button>
         </div>
     </main>
+
+    <script src="./js/scripts.js"></script>
 </body>
 </html>
